@@ -1,7 +1,0 @@
-/* MathJax のブロック数式を中央寄せ */
-.math.display,
-.mjx-block {
-  display: block;
-  margin: 1em auto;    /* 上下マージン＋左右中央寄せ */
-  text-align: center;   /* 念のため中身も中央 */
-}
