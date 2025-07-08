@@ -32,7 +32,9 @@ $$となる。ここで、$s = \dfrac{(\frac{t^2}{\nu}+1)}{2}w$と置くと、�
 $$
 \left(\dfrac{2}{\frac{t^2}{\nu}+1}\right)^{(\nu+1)/2-1}\left(\frac{\frac{t^2}{\nu}+1}{2}\right)\int_0^\infty s^{(\nu+1)/2-1}\exp\left[-s\right]ds
 $$
+
 となるが、この後半の積分は[[ガンマ関数]]の定義 $\Gamma(z)=\int_0^\infty t^{z-1}e^{-t}dt$ から、$\Gamma\left(\frac{\nu+1}{2}\right)$ と等しいことがわかる。以上から、
 $$
 \begin{aligned}f_T(t) &= \dfrac{1}{\sqrt{\pi \nu}}\dfrac{1}{\Gamma(\frac{\nu}{2})}\dfrac{1}{2^{(\nu+1)/2}}\left(\dfrac{2}{\frac{t^2}{\nu}+1}\right)^{(\nu+1)/2-1}\left(\frac{\frac{t^2}{\nu}+1}{2}\right)\Gamma\left(\frac{\nu+1}{2}\right) \\ &= \dfrac{\Gamma\left(\frac{\nu+1}{2}\right)}{\Gamma(\frac{\nu}{2})}\dfrac{1}{\sqrt{\pi \nu}}\left(\dfrac{1}{\frac{t^2}{\nu}+1}\right)^{(\nu+1)/2}\end{aligned}
-$$となり、$t$分布が導出できた。
+$$
+となり、$t$分布が導出できた。

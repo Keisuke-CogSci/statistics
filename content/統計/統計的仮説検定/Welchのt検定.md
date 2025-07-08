@@ -6,6 +6,8 @@
 
 統計量$t=\dfrac{\bar x_A-\bar x_B}{\sqrt{\dfrac{s_A^2}{n_A}+\dfrac{s_B^2}{n_B}}}$は、自由度 $\color{crimson}{\nu\approx \dfrac{\left(\dfrac{s_A^2}{n_A}+\dfrac{s_B^2}{n_B}\right)^2}{\dfrac{s_A^4}{n_A^2(n_A-1)}+\dfrac{s_B^4}{n_B^2(n_B-1)}}}$の[[t分布]]に従う。有意水準$\alpha$のとき、両側検定の棄却域は
 
-$$ \left\{t\left(\dfrac{\alpha}{2};\nu\right) < |t| \right\} $$
+$$
+\left\{t\left(\dfrac{\alpha}{2};\nu\right) < |t| \right\}
+$$
 
 となる。
