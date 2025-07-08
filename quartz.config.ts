@@ -9,6 +9,10 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Obsidianによる資料置き場",
+    headTags: [
+      // public/css/custom.css を読み込む
+      `<link rel="stylesheet" href="${config.configuration.baseUrl}css/custom.css" />`
+    ],
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
