@@ -21,3 +21,4 @@ $$
 $$
 \begin{aligned} J\{(x_1, x_2)\rightarrow (z,w)\} &=\det \begin{bmatrix}\dfrac{\partial x_1}{\partial z} & \dfrac{\partial x_1}{\partial w} \\ \\ \dfrac{\partial x_2}{\partial z} & \dfrac{\partial x_2}{\partial w} \end{bmatrix} \\ &= \det \begin{bmatrix} \dfrac{\nu_1}{\nu_2}x_2 & 0 \\ \dfrac{\nu_2}{\nu_1}x_1 & 1\end{bmatrix} \\ &= \dfrac{\nu_1}{\nu_2}x_2.\end{aligned}
 $$
+ここから先の計算が大変に面倒.
