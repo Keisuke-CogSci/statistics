@@ -28,7 +28,8 @@ $$
 となる。$w$ に関して周辺化すると、$W=V\sim \chi^2(\nu)$ であるから、積分範囲は正の範囲であり、
 $$
 f_T(t) = \dfrac{1}{\sqrt{\pi \nu}}\dfrac{1}{\Gamma(\frac{\nu}{2})}\dfrac{1}{2^{(\nu+1)/2}}\int_0^\infty w^{(\nu+1)/2-1}\exp\left[-\dfrac{(\frac{t^2}{\nu}+1)w}{2}\right]dw
-$$となる。ここで、$s = \dfrac{(\frac{t^2}{\nu}+1)}{2}w$と置くと、後半の積分は
+$$
+となる。ここで、$s = \dfrac{(\frac{t^2}{\nu}+1)}{2}w$と置くと、後半の積分は
 $$
 \left(\dfrac{2}{\frac{t^2}{\nu}+1}\right)^{(\nu+1)/2-1}\left(\frac{\frac{t^2}{\nu}+1}{2}\right)\int_0^\infty s^{(\nu+1)/2-1}\exp\left[-s\right]ds
 $$
