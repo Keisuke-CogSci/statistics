@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "Obsidianによる資料置き場",
     headTags: [
       // public/css/custom.css を読み込む
-      `<link rel="stylesheet" href="${config.configuration.baseUrl}css/custom.css" />`
+      `<link rel="stylesheet" href="/statistics/css/custom.css" />`
     ],
     pageTitleSuffix: "",
     enableSPA: true,
