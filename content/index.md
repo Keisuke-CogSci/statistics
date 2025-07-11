@@ -29,7 +29,7 @@ description: 数学や統計、認知科学の諸理論についての個人的�
 	- 解析力学
 - 認知科学・神経科学
 	- 神経科学における数理モデル
-	- Bayesian Models of Cognition (Griffiths, et al., 2025) のまとめ
+	- Bayesian Models of Cognition (Griffiths et al., 2024) のまとめ
 
 ---
 
